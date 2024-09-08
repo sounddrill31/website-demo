@@ -4,9 +4,10 @@ import { View, TouchableOpacity, StyleSheet } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { FontAwesome } from '@expo/vector-icons';
 import Slide1 from './Slide1';
+import Slide2 from './Slide2';
 // Import other slides here
 
-const SLIDES = [Slide1 /* Add other slides here */];
+const SLIDES = [Slide1, Slide2 /* Add other slides here */];
 
 export default function App() {
   const [currentSlide, setCurrentSlide] = useState(0);
