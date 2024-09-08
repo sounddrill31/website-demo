@@ -1,0 +1,1 @@
+npx expo install react-native-web react-dom @expo/metro-runtime expo-blur expo-linear-gradient @expo/vector-icons moti
